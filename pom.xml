@@ -45,7 +45,16 @@
                             <username>jboss</username>
                             <password>jboss2014</password>
                             <port>9999</port>
+                            <force>true</force>
                     </configuration>
+                <executions>  
+                     <execution>  
+                        <phase>package</phase>  
+                         <goals>  
+                          <goal>deploy</goal>  
+                         </goals>  
+                     </execution>  
+                </executions>
             </plugin>
             
             
