@@ -39,7 +39,7 @@
             <plugin>
                     <groupId>org.jboss.as.plugins</groupId>
                     <artifactId>jboss-as-maven-plugin</artifactId>
-                    <version>${jboss.as.plugin.version}</version>
+                    <version>7.1.1.Final</version>
                     <configuration>
                         <hostname>localhost</hostname>
                             <username>jboss</username>
